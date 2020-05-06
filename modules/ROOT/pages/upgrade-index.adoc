@@ -194,6 +194,8 @@ chmod +x rtfctl
 +
 ----
 sudo ./rtfctl apply system-configuration 
+[IMPORTANT]
+If you have upgraded to Runtime Fabric Installer 1.1.1586472858-1609d2f, released April 15, 2020, or later, then this step is no longer required
 ----
 
 == Resume a Cluster-Level Component (Appliance) Upgrade
