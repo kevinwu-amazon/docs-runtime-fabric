@@ -55,7 +55,7 @@ You can enable monitoring and alerting in AWS or Azure | Included
 
 Hybrid deployments of Mule applications require you to install a version of the Mule runtime on a server and deploy one or more applications on the server. Each application shares the Mule runtime server and the resources allocated to it. Other resources such as certificates or database connections may also be shared using domains.
 
-Anypoint Runtime Fabric provisions resources differently. Each Mule application and API gateway runs within its own Mule runtime and in its own container. The resources available to the container are specified when deploying a Mule application or API proxy. This enables Mule applications to horizontally scale across VMs without relying on other dependencies. It also ensures that different applications do not compete with each other for resources on the same VM.
+Anypoint Runtime Fabric provisions resources differently. Each Mule application and API gateway runs within its own Mule runtime and in its own container. The resources available to the container are specified when deploying a Mule application or API proxy. This enables Mule applications to horizontally scale across nodes without relying on other dependencies. It also ensures that different applications do not compete with each other for resources on the same node.
 
 == See Also
 
